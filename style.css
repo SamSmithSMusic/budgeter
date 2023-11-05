@@ -1,0 +1,56 @@
+/* CSS styles for your budget keeper application */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0074d9;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+section {
+    margin: 20px;
+}
+
+button {
+    background-color: #0074d9;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#budget-section, #purchases-section {
+    background-color: #f5f5f5;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#budget-section h2, #purchases-section h2 {
+    margin-top: 0;
+}
+
+#budget-categories, #purchase-history {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input[type="text"], input[type="number"], select {
+    width: 100%;
+    padding: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
